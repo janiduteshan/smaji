@@ -82,14 +82,13 @@ export function DefaultSidebar() {
             Home
           </ListItem>
         </a>
-        /*
+
         <ListItem>
           <ListItemPrefix>
             <PowerIcon className="h-5 w-5" />
           </ListItemPrefix>
           Log Out
         </ListItem>
-        */
       </List>
     </Card>
   );
