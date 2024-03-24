@@ -17,7 +17,7 @@ import {
   InformationCircleIcon,
   HomeIcon,
 } from "@heroicons/react/24/solid";
- 
+
 export function DefaultSidebar() {
   return (
     <Card className="h-[calc(100vh-2rem)] w-full max-w-[20rem] p-4 shadow-xl shadow-blue-gray-900/5">
@@ -45,7 +45,13 @@ export function DefaultSidebar() {
           </ListItemPrefix>
           Inbox
           <ListItemSuffix>
-            <Chip value="14" size="sm" variant="ghost" color="blue-gray" className="rounded-full" />
+            <Chip
+              value="14"
+              size="sm"
+              variant="ghost"
+              color="blue-gray"
+              className="rounded-full"
+            />
           </ListItemSuffix>
         </ListItem>
         <ListItem>
@@ -61,27 +67,29 @@ export function DefaultSidebar() {
           Settings
         </ListItem>
         <a href="/about">
-        <ListItem>
-          <ListItemPrefix>
-            <InformationCircleIcon className="h-5 w-5" />
-          </ListItemPrefix>
-          About
-        </ListItem>
+          <ListItem>
+            <ListItemPrefix>
+              <InformationCircleIcon className="h-5 w-5" />
+            </ListItemPrefix>
+            About
+          </ListItem>
         </a>
         <a href="/">
-        <ListItem>
-          <ListItemPrefix>
-            <HomeIcon className="h-5 w-5" />
-          </ListItemPrefix>
-          Home
-        </ListItem>
+          <ListItem>
+            <ListItemPrefix>
+              <HomeIcon className="h-5 w-5" />
+            </ListItemPrefix>
+            Home
+          </ListItem>
         </a>
+        /*
         <ListItem>
           <ListItemPrefix>
             <PowerIcon className="h-5 w-5" />
           </ListItemPrefix>
           Log Out
         </ListItem>
+        */
       </List>
     </Card>
   );
