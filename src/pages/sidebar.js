@@ -39,7 +39,7 @@ export function DefaultSidebar() {
           </ListItemPrefix>
           E-Commerce
         </ListItem>
-        <ListItem>
+        {/* <ListItem>
           <ListItemPrefix>
             <InboxIcon className="h-5 w-5" />
           </ListItemPrefix>
@@ -53,7 +53,7 @@ export function DefaultSidebar() {
               className="rounded-full"
             />
           </ListItemSuffix>
-        </ListItem>
+        </ListItem> */}
         <ListItem>
           <ListItemPrefix>
             <UserCircleIcon className="h-5 w-5" />
