@@ -8,7 +8,7 @@ import {
   Chip,
 } from "@material-tailwind/react";
 import {
-  BookIcon,
+  ShoppingBagIcon,
   ShoppingBagIcon,
   UserCircleIcon,
   Cog6ToothIcon,
